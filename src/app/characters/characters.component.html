@@ -1,0 +1,10 @@
+<nav>
+    <div class="search-box">
+        <input type="text" class="input-search" placeholder="Type to Search..." [(ngModel)]="searchValue">
+        <button class="btn-search" (click)="search(searchValue)">Search</button>
+    </div>
+    <div class="list" id="list">
+        <div class="loader"></div>
+    </div>
+</nav>
+   

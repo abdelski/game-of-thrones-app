@@ -1,0 +1,101 @@
+.search-box {
+    background-color: green;
+    width: 400px;
+    margin: 50px auto 0 auto;
+}
+
+.search-box input[type=text] {
+    float: left;
+    width: 310px;
+    height: 40px;
+    padding: 0 5px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #3b5360;
+    border-radius: 10px;
+}
+
+.search-box button {
+    float: right;
+    width: 70px;
+    height: 43px;
+    cursor: pointer;
+    background-color: #3b5360;
+    border: #3b5360;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.list {
+    float: left;
+    width: 70%;
+    margin: 30px 15%;
+    min-height: 300px;
+    color: #3b5360;
+}
+
+::ng-deep .list .card {
+    float: left;
+    width: calc(25% - 20px);
+    border: 1px solid #3b5360;
+    padding: 15px 10px;
+    margin: 10px calc(4% - 1px);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+::ng-deep .list .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+::ng-deep .list .card .name {
+    font-weight: bold;
+    width: calc(100% - 20px);
+    overflow:hidden;
+    display:inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+::ng-deep .list .card .description {
+    width: calc(100% - 20px);
+    overflow:hidden;
+    display:inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+::ng-deep .loader {
+    border: 16px solid #3b5360;
+    border-radius: 50%;
+    border-top: 16px solid #fcf8e8;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin: 50px auto;
+  }
+  
+  /* Safari */
+::ng-deep  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+::ng-deep  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+::ng-deep .list h1 {
+    font-size: 30px;
+}
+
+::ng-deep .list span {
+    font-size: 17px;
+}
+
+::ng-deep .list a {
+    font-size: 17px;
+    color: #3b5360;
+}

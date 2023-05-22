@@ -1,0 +1,43 @@
+.search-box {
+    background-color: green;
+    width: 400px;
+    margin: 50px auto 0 auto;
+}
+
+.search-box input[type=text] {
+    float: left;
+    width: 310px;
+    height: 40px;
+    padding: 0 5px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #3b5360;
+    border-radius: 10px;
+}
+ 
+.search-box button {
+    float: right;
+    width: 70px;
+    height: 43px;
+    cursor: pointer;
+    background-color: #3b5360;
+    border: #3b5360;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.list {
+    float: left;
+    width: 70%;
+    margin: 30px 15%;
+    min-height: 300px;
+    color: #3b5360;
+}
+
+.list h1 {
+    font-size: 30px;
+}
+
+.list p {
+    font-size: 17px;
+}

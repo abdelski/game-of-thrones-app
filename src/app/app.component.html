@@ -1,0 +1,11 @@
+<div class="app">
+  <nav>
+    <div class="navbar">
+      <span (click)="redirect('')">Home</span>
+      <span (click)="redirect('books')">Books</span>
+      <span (click)="redirect('characters')">Characters</span>
+      <span (click)="redirect('houses')">Houses</span>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
